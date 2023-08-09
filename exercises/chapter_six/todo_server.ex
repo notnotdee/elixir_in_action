@@ -1,5 +1,7 @@
 defmodule TodoServer do
   @moduledoc """
+  A to-do server process that can be used to manage one to-do list for a long time.
+
   ### Example usage:
     iex> pid = TodoServer.start()
     #PID<0.164.0>
